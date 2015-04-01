@@ -1,0 +1,9 @@
+function af=af()
+af.active = 10;
+af.c = [18*rand,18*rand,18*rand];%计每层楼高度为3，共有5层楼4个隔板
+af.layer_reduce = [0,0,0,0,0];%障碍类型一对信号的影响
+af.step = 0.7;
+af.visual = 6;
+af.coverage = 3;
+af.comfort = 0;
+af = class(af,'af');
